@@ -20,7 +20,7 @@ func ConvertTemperature(temp float64, fromScale string, toScale string) (float64
 	} else {
 		return 0, fmt.Errorf("Escala inválida.")
 	}
-	return 0, nil
+	return result, nil
 }
 
 func main() {
